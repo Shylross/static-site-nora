@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    margin-top: 0px;
+}
+
+body {
+    font-family: Merriweather;
+    font-size: 18px;
+    font-style: normal;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 23px;
+    letter-spacing: 0%;
+    background-color: white;
+    color: #020E35;
+}
+
+/*main {
+    max-width: 2644px;
+    margin: auto;
+}*/
+
+.link {
+    display: flex;
+    justify-content: right;
+    gap: 45px;
+    width: 457px;
+    height: 28px;
+}
+
+.flex div {
+    width: 200px;
+    height: 28px;
+
+    /*a voir si il faut faire le block blanc comme selui de contact us*/
+}
+
+.navigation-bar {
+    height: 84px;
+    box-shadow: 0px 8px 20px 5px #00000014;
+
+    display: flex;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-content {
+    width: 100%;
+    /*max-width: 1920px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Button-link {
+    color: white;
+    background-color: #020E35;
+    width: 200px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none
+}
+
+.Contact-us {
+    margin-right: 150px;
+}
+
+.home {
+    max-width: fit-content;
+    display: inline-block;
+    border-bottom: 4px solid #FF5678;
+    padding-bottom: 8px;
+}
+
+.navigation-link {
+    display: flex;
+    align-items: center;
+    /* aligne verticalement les éléments */
+    gap: 45px;
+    /* espace entre our work et contact */
+}
+
+.link a {
+    color: #020E35;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.logoZebb {
+    margin-left: 150px;
+}
+
+.HomePageHeader {
+    display: flex;
+    width: 100%;
+    gap: 480px;
+    margin-top: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.PageHeaderBackground {
+    width: 100%;
+    max-width: 1920px;
+    max-height: 1008px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.Text-content {
+    display: flex;
+    flex-direction: column; /* Aligne le texte et le bouton verticalement */
+    gap: 56px; /* Espacement entre le texte et le bouton */
+    align-items: left; /* Aligne le texte et le bouton à gauche */ 
+}
+
+.coffee {
+    width: 592px;
+    height: 508px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    gap: 4px;
+    opacity: #FFEEF6 20%;
+    border-radius: 200px;
+}
+
+/*p {
+
+
+}*/
+
+h1 {
+    margin-left: 150px;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 110px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 62px;
+}
+
+.highlight {
+    color: white;
+    background-color: rgba(255, 86, 120, 1);
+    display: inline-block; /* Pour un surlignement plus précis */
+    line-height: 0.9;
+}
+.See-our-work {
+    box-shadow: 0px 20px 40px 5px #00000040;
+}
