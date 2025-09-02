@@ -16,8 +16,8 @@ body {
 }
 
 main {
-    height: 2000px;
-    
+    height: 3500px;
+
 }
 
 .link {
@@ -117,9 +117,12 @@ a {
 
 .Text-content {
     display: flex;
-    flex-direction: column; /* Aligne le texte et le bouton verticalement */
-    gap: 56px; /* Espacement entre le texte et le bouton */
-    align-items: left; /* Aligne le texte et le bouton à gauche */ 
+    flex-direction: column;
+    /* Aligne le texte et le bouton verticalement */
+    gap: 56px;
+    /* Espacement entre le texte et le bouton */
+    align-items: left;
+    /* Aligne le texte et le bouton à gauche */
 }
 
 .coffee {
@@ -144,63 +147,82 @@ h1 {
 .highlight {
     color: white;
     background-color: rgba(255, 86, 120, 1);
-    display: inline-block; /* Pour un surlignement plus précis */
+    display: inline-block;
+    /* Pour un surlignement plus précis */
     line-height: 0.9;
 }
+
 .See-our-work {
     box-shadow: 0px 20px 40px 5px #00000040;
 }
 
 .PoweredBackground {
-    width: 100%;
-    max-width: 1920px;
     max-height: 708px;
+    padding: 100px 150px;
     display: flex;
-    align-items: flex-start;
+    gap: 511px;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 h2 {
-    margin-top: 100px;
     font-size: 54px;
     font-weight: 700;
     line-height: 62px;
 }
 
+h3 {
+    color: transparent;
+    -webkit-text-stroke: 1px #020E35;
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+h4 {
+    height: 36px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
 .highlight2 {
-    position: relative; /* Permet de positionner le pseudo-élément par rapport à cet élément */
-    background-color: transparent; /* Aucune couleur de fond */
-    display: inline-block; /* Pour un surlignement plus précis */
-    line-height: 0.1;
+    position: relative;
+    /* Permet de positionner le pseudo-élément par rapport à cet élément */
+    background-color: transparent;
+    /* Aucune couleur de fond */
+    display: inline-block;
+    /* Pour un surlignement plus précis */
+
 }
 
 .highlight2::after {
-    content: ''; /* Pas de texte, juste la ligne */
+    content: '';
+    /* Pas de texte, juste la ligne */
     position: absolute;
-    bottom: -33px; /* Place la ligne juste sous le texte (ajustable) */
+    bottom: -1px;
+    /* Place la ligne juste sous le texte (ajustable) */
     left: 5px;
-    width: 102%; /* La ligne dépasse légèrement à la fin */
-    height: 29px; /* Hauteur du surlignement */
-    background-color: rgba(255, 86, 120, 1); /* Couleur du surlignement */
-    z-index: -1; /* S'assure que la ligne est derrière le texte */
+    width: 102%;
+    /* La ligne dépasse légèrement à la fin */
+    height: 29px;
+    /* Hauteur du surlignement */
+    background-color: rgba(255, 86, 120, 1);
+    /* Couleur du surlignement */
+    z-index: -1;
+    /* S'assure que la ligne est derrière le texte */
+
 }
 
 .Text-content2 {
     display: flex;
-    flex-direction: column; /* Aligne le texte et le bouton verticalement */
-    gap: 42px; /* Espacement entre le h2 et le texte */
+    flex-direction: column;
+    /* Aligne le texte et le bouton verticalement */
+    gap: 42px;
+    /* Espacement entre le h2 et le texte */
     align-items: left;
 }
 
 .videos {
-    width: 592;
-    height: 508;
-    margin-top: 100px;
-    margin-left: 150px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
+    width: 592px;
+    height: 508px;
     gap: 4px;
     opacity: 1;
     border-radius: 500px;
@@ -210,6 +232,7 @@ h2 {
     box-shadow: 0px 20px 40px 5px #00000040;
     margin-right: 63px;
 }
+
 .interaction-button {
     display: flex;
     align-items: flex-start;
@@ -217,14 +240,63 @@ h2 {
 
 .PlayLogo {
     display: block;
-    margin-right: 24px; /* distance entre PlayLogo et Watch videos */
+    margin-right: 24px;
+    /* distance entre PlayLogo et Watch videos */
 }
 
-.Watch-videos {  
+.Watch-videos {
     color: #020E35;
     background-color: #FFFFFF;
     width: 200px;
     height: 68px;
     display: flex;
     align-items: center;
+}
+
+
+
+.Text-content-servicesList {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    /* Aligne le texte verticalement */
+    align-items: left;
+}
+
+
+.contenaire-p {
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    gap: 532px;
+}
+
+.thigs-we-enjoi-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.thigs-we-enjoi-element {
+    display: flex;
+    gap: 32px;
+}
+
+.thigs-we-enjoi-margin {
+    margin-top: 120px;
+}
+
+.PinkCircleUnderneath {
+    position: relative; /* On garde le conteneur comme référence pour le positionnement absolu */
+    z-index: 1; /* Le contenu au-dessus du cercle sera sur cet index */
+}
+
+.PinkCircle {
+    position: absolute; /* Le cercle est positionné de façon absolue */
+    top: -43%; /* Place-le au milieu du conteneur */
+    left: -33%; /* Centre horizontalement */
+    z-index: -1; /* Le cercle sera en arrière-plan */
+    margin-right: 647px;
 }
