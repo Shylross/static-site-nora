@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    height: 3500px;
+    height: 4000px;
 
 }
 
@@ -46,7 +46,6 @@ main {
 
 .nav-content {
     width: 100%;
-    /*max-width: 1920px;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,18 +247,13 @@ h4 {
     align-items: center;
 }
 
-
-
 .Text-content-servicesList {
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-right: 150px;
+    padding: 100px 150px;
     display: flex;
     flex-direction: column;
     /* Aligne le texte verticalement */
     align-items: left;
 }
-
 
 .contenaire-p {
     margin-top: 29px;
@@ -291,3 +285,26 @@ h4 {
     z-index: -1; /* Le cercle sera en arrière-plan */
     margin-right: 647px;
 }
+
+.CraftExperiences {
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 176px;
+}
+
+.OurCustomers {
+    margin: 83px 0px;
+}
+
+.P-Customers {
+    margin: 60px 0px;
+}
+
+.CustomersJPG {
+    border-radius: 1000px;
+}
+
+/*faire le commit une fois revenue de la pause*/
+
+/*ensuite revoir l'espace entre home page et powered by.../
