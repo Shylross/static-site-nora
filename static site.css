@@ -126,14 +126,9 @@ a {
 }
 
 .coffee {
-    width: 592px;
-    height: 508px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    gap: 4px;
     opacity: #FFEEF6 20%;
     border-radius: 200px;
+    margin-right: 150px;
 }
 
 h1 {
@@ -286,17 +281,13 @@ h4 {
 
 .thigs-we-enjoi-margin {
     margin-top: 120px;
-}
-
-.PinkCircleUnderneath {
-    position: relative; /* On garde le conteneur comme référence pour le positionnement absolu */
-    z-index: 1; /* Le contenu au-dessus du cercle sera sur cet index */
+    position: relative;
 }
 
 .PinkCircle {
     position: absolute; /* Le cercle est positionné de façon absolue */
-    top: -43%; /* Place-le au milieu du conteneur */
-    left: -33%; /* Centre horizontalement */
+    top: -33%; /* Place-le au milieu du conteneur */
+    left: -27%; /* Centre horizontalement */
     z-index: -1; /* Le cercle sera en arrière-plan */
     margin-right: 647px;
 }
