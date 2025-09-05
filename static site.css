@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    height: 4000px;
+    height: 5100px;
 }
 
 /*--------------------------NAVIGATION BAR-----------------------------------------*/
@@ -31,8 +31,7 @@ main {
 
 .flex div {
     width: 200px;
-    height: 28px;
-    /*a voir si il faut faire le block blanc comme selui de contact us*/
+    height: 28px; /*a voir si il faut faire le block blanc comme selui de contact us*/
 }
 
 .navigation-bar {
@@ -78,10 +77,8 @@ a {
 
 .navigation-link {
     display: flex;
-    align-items: center;
-    /* aligne verticalement les éléments */
-    gap: 45px;
-    /* espace entre our work et contact */
+    align-items: center; /* aligne verticalement les éléments */
+    gap: 45px; /* espace entre our work et contact */
 }
 
 .link a {
@@ -110,12 +107,9 @@ a {
 
 .Text-content {
     display: flex;
-    flex-direction: column;
-    /* Aligne le texte et le bouton verticalement */
-    gap: 56px;
-    /* Espacement entre le texte et le bouton */
-    align-items: left;
-    /* Aligne le texte et le bouton à gauche */
+    flex-direction: column; /* Aligne le texte et le bouton verticalement */
+    gap: 56px; /* Espacement entre le texte et le bouton */
+    align-items: left; /* Aligne le texte et le bouton à gauche */
 }
 
 .coffee {
@@ -132,8 +126,7 @@ h1 {
 .highlight {
     color: white;
     background-color: rgba(255, 86, 120, 1);
-    display: inline-block;
-    /* Pour un surlignement plus précis */
+    display: inline-block; /* Pour un surlignement plus précis */
     line-height: 0.9;
 }
 
@@ -173,39 +166,53 @@ h4 {
 
 /*-------HIGHLINGHT2--------*/
 .highlight2 {
-    position: relative;
-    /* Permet de positionner le pseudo-élément par rapport à cet élément */
-    background-color: transparent;
-    /* Aucune couleur de fond */
-    display: inline-block;
-    /* Pour un surlignement plus précis */
-
+    position: relative; /* Permet de positionner le pseudo-élément par rapport à cet élément */
+    background-color: transparent; /* Aucune couleur de fond */
+    display: inline-block; /* Pour un surlignement plus précis */
 }
 
 .highlight2::after {
-    content: '';
-    /* Pas de texte, juste la ligne */
+    content: ''; /* Pas de texte, juste la ligne */
     position: absolute;
-    bottom: -1px;
-    /* Place la ligne juste sous le texte (ajustable) */
+    bottom: -1px; /* Place la ligne juste sous le texte (ajustable) */
     left: 5px;
-    width: 102%;
-    /* La ligne dépasse légèrement à la fin */
-    height: 29px;
-    /* Hauteur du surlignement */
-    background-color: rgba(255, 86, 120, 1);
-    /* Couleur du surlignement */
-    z-index: -1;
-    /* S'assure que la ligne est derrière le texte */
+    width: 102%; /* La ligne dépasse légèrement à la fin */
+    height: 29px; /* Hauteur du surlignement */
+    background-color: rgba(255, 86, 120, 1); /* Couleur du surlignement */
+    z-index: -1; /* S'assure que la ligne est derrière le texte */
+}
+/*-------HIGHLINGHT3--------*/
+.highlight3 {
+    position: relative; /* Permet de positionner le pseudo-élément par rapport à cet élément */
+    background-color: transparent; /* Aucune couleur de fond */
+    display: inline-block; /* Pour un surlignement plus précis */
 }
 
+.highlight3::after {
+    content: ''; /* Pas de texte, juste la ligne */
+    position: absolute;
+    bottom: -5px; /* Place la ligne juste sous le texte (ajustable) */
+    left: -1%;
+    right: -1%;
+    height: 29px; /* Hauteur du surlignement */
+    background-color: rgba(255, 86, 120, 1); /* Couleur du surlignement */
+    z-index: -1; /* S'assure que la ligne est derrière le texte */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.highlight3 {
+    width: max-content;
+    white-space: nowrap;
+}
 /*-------POWERED--------*/
 .Text-content2 {
     display: flex;
-    flex-direction: column;
-    /* Aligne le texte et le bouton verticalement */
-    gap: 42px;
-    /* Espacement entre le h2 et le texte */
+    flex-direction: column; /* Aligne le texte et le bouton verticalement */
+    gap: 42px; /* Espacement entre le h2 et le texte */
     align-items: left;
 }
 
@@ -229,8 +236,7 @@ h4 {
 
 .PlayLogo {
     display: block;
-    margin-right: 24px;
-    /* distance entre PlayLogo et Watch videos */
+    margin-right: 24px; /*distance entre PlayLogo et Watch videos */
 }
 
 .Watch-videos {
@@ -247,9 +253,7 @@ h4 {
 .Text-content-servicesList {
     padding: 100px 150px;
     display: flex;
-    flex-direction: column;
-    /* Aligne le texte verticalement */
-    align-items: left;
+    flex-direction: column; /* Aligne le texte verticalement */
 }
 
 .contenaire-p {
@@ -283,7 +287,7 @@ h4 {
     margin-right: 647px;
 }
 
-/*--------------------------CRAFT EXPERIENCES-------------------------------------*/
+/*--------------------------CRAFT EXPERIENCES-----------------------------------*/
 
 .CraftExperiences {
     padding: 100px 150px;
@@ -302,4 +306,51 @@ h4 {
 
 .CustomersJPG {
     border-radius: 1000px;
+}
+
+/*--------------------------------TEAM SECTION----------------------------------*/
+
+.TeamSection {
+    padding: 100px 150px;
+}
+
+.MeetTheTeam {
+    display: grid;
+}
+
+.ContactDashboard {
+    padding-top: 104px;
+}
+
+.LineContact1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 colonnes égales */
+    gap: 19px;
+    margin-bottom: 51px;
+}
+
+.LineContact2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 colonnes égales */
+    gap: 32px;
+}
+
+.ContactBox {
+    margin-top: 10px;
+    border: 1px solid #B8B8B8;
+    border-radius: 50px;
+    text-align: center;
+    padding: 88px 0px;
+}
+
+.Mark {
+    margin-top: 0px;
+    padding: 74px 0px;
+    box-shadow: 0px 20px 40px 5px #00000026;
+}
+
+.LitlePinkCircle {
+    margin-bottom: 60px;
+    margin-left:  159px;
+    margin-right:  159px;
 }
